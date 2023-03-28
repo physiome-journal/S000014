@@ -73,7 +73,7 @@ Note that we will refer to the model based on the equations published in \citet{
 The Maltenfort and Burke muscle spindle model was developed for two purposes: the investigation  of $\beta$-feedback loops~\citep{burke1977} and for serving as computationally efficient model in large-scale simulations of the neuromuscular system.  
 The latter is ensured by employing only algebraic equations. 
 The model has a block-wise structure (cf. Fig.~1B in the original manuscript), calculating a baseline muscle spindle frequency for passive length changes as well as additional contributions modulated by static and dynamic fusimotor drives. Following the findings from \citet{andersson1968}, \citet{lennerstrand1968b,lennerstrand1968c} and \citet{lennerstrand1968a} and using a phenomenological approach, each contribution is calculated as the sum of four components: a pure velocity and a pure position sensitivity, a mixed velocity and position sensitivity and a baseline firing rate at the initial length.
-Thereby, the velocity is the filtered derivative of the the position input to achieve smooth transitions from shortening to lengthening (cf. \citet{maltenfort2003}, Eqn. 3).  
+Thereby, the velocity is the filtered derivative of the the position input to achieve smooth transitions from shortening to lengthening \citep[cf.][Eqn. 3]{maltenfort2003}.  
 The static and dynamic contributions are non-linearly mixed by an occlusion function, partially suppressing the smaller contribution as it was observed in experimental studies \citep{schafer1974}.
 Finally, the passive contribution and the mixed fusimotor contribution are added up yielding the firing rate of the muscle spindle primary axon. \\
 Since the role of $\beta$-innervation is still under debate, the $\beta$-feedback loop is not part of the provided model.  
@@ -187,7 +187,7 @@ The comparisons to the respective MATLAB results, as also shown in Figure~\ref{f
 \end{figure}
 
 
-\section{Reproducability goals}\label{sec:reprod}
+\section{Reproducibility goals}\label{sec:reprod}
 % Figures showing that the code simulates the same graphs as shown in the  primary paper.
 The aim of this paper is to provide a model which is able to reproduce the results as shown in Fig.~4A and Fig.4B as well as Fig.~5A-D of the original publication. 
 Since the data from the original publication were not available, Engauge Digitizer (Version 10.4) was used to obtain the data points shown herein.\\
@@ -208,10 +208,10 @@ The overestimation of the spindle firing rate in response to dynamic fusimotor d
 It was shown that the provided codes reproduce the results published in the original paper. 
 As shown in \citet{maltenfort2003}, these results match a variety of experimentally observed characteristics of muscle spindle firing. 
 For an elaborate discussion of the model, the reader is referred to the original publication \citep{maltenfort2003}. \\
-In absence of secondary afferent firing, the model is well suited for large-scale bio-physically motivated simulations due to its low computational cost (cf. e.\,g. \citealp{rohrle2019}). 
+In absence of secondary afferent firing, the model is well suited for large-scale bio-physically motivated simulations due to its low computational cost \citep[cf. e.\,g.][]{rohrle2019}.
 % Further, combining the spindle model with a continuum-mechanical muscle model (e.\,g. \citet{heidlauf2017}) has the potential to provide new means of investigating muscle spindle behaviour.
 %Further, musculo-skeletal models involving multiple muscles (e.g. the currently purely continuum-mechanical model of \citet{roehrle2017}) can be extended by integrating a muscle spindle model to investigate sensory interactions across joints. 
-For example, combining the spindle model with a continuum-mechanical multi-muscle model (e.\,g. \citealp{roehrle2017}) has the potential to provide new means of investigating muscle spindle behaviour in response to heterogeneous muscle deformations as well as sensory interactions across joints.
+For example, combining the spindle model with a continuum-mechanical multi-muscle model \citep[e.g.][]{roehrle2017} has the potential to provide new means of investigating muscle spindle behaviour in response to heterogeneous muscle deformations as well as sensory interactions across joints.
 
 
 \FloatBarrier
