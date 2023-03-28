@@ -1,0 +1,72 @@
+version: 1
+project:
+  title: >-
+    Spindle Model Responsive to Mixed Fusimotor Inputs: an updated version of
+    the Maltenfort and Burke (2003) model
+  authors:
+    - name: Laura Schmid
+      orcid: 0000-0002-1781-8429
+      affiliations:
+        - >-
+          Institute for Modelling and Simulation of Biomechanical Systems,
+          University of Stuttgart, Germany
+      corresponding: true
+      email: laura.schmid@imsb.uni-stuttgart.de
+    - name: Thomas Klotz
+      orcid: 0000-0002-0503-9815
+      affiliations:
+        - >-
+          Institute for Modelling and Simulation of Biomechanical Systems,
+          University of Stuttgart, Germany
+    - name: Utku Ş. Yavuz
+      orcid: 0000-0002-6968-8064
+      affiliations:
+        - >-
+          Department of Biomedical Signals and Systems, Faculty of Electrical
+          Engineering, Mathematics and Computer Sciences, University of Twente,
+          Netherlands
+    - name: Mitchell Maltenfort
+      orcid: 0000-0002-0141-1720
+      affiliations:
+        - >-
+          The Applied Clinical Research Center, Department of Biomedical and
+          Health Informatics, Children’s Hospital of Philadelphia, USA
+    - name: Oliver Röhrle
+      orcid: 0000-0002-1934-6525
+      affiliations:
+        - >-
+          Institute for Modelling and Simulation of Biomechanical Systems,
+          University of Stuttgart, Germany
+        - >-
+          Stuttgart Center for Simulation Sciences (SC SimTech), University of
+          Stuttgart, Germany
+  keywords:
+    - muscle spindle
+    - afferent feedback
+    - proprioception
+    - neuromuscular system
+  open_access: true
+  license: CC-BY-4.0
+  subject: Retrospective
+  date: 2022/01/27
+  doi: 10.36903/physiome.19070171
+  numbering:
+    heading_2: true
+    heading_3: true
+site:
+  title: >-
+    Spindle Model Responsive to Mixed Fusimotor Inputs: an updated version of
+    the Maltenfort and Burke (2003) model
+  projects:
+    - slug: S000014
+      path: .
+  nav: []
+  actions:
+    - title: paper
+      url: CRBM_Reproducibility_Report__S000014.pdf
+      static: true
+    - title: omex
+      url: Schmid2022PhysiomeS000014.omex
+      static: true
+    - title: primary
+      url: https://doi.org/10.1152/jn.00942.2002
