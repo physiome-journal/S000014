@@ -63,7 +63,7 @@ site:
   nav: []
   actions:
     - title: paper
-      url: CRBM_Reproducibility_Report__S000014.pdf
+      url: Schmid2022PhysiomeS000014.pdf
       static: true
     - title: omex
       url: Schmid2022PhysiomeS000014.omex
