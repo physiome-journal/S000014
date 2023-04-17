@@ -162,7 +162,7 @@ The CellML simulations were run with OpenCOR version 0.6 \citep{opencor}, Euler 
 The CellML simulation results are obtained by running Fig03.sedml. 
 Thereby, the stretch scenarios shown in Figure~\ref{fig:fig3}A and B are applied consecutively.
 Note that in  Figure~\ref{fig:fig3}B the second of two sinusoidal stretch cycles is plotted to exclude effects caused by the initial displacement. 
-The comparisons to the respective MATLAB results, as also shown in Figure~\ref{fig:fig3}, are created by storing the CellML simulation results to a file called Fig03.csv and running Fig03.m (cf. Section \ref{sec:run_matlab}). 
+The comparisons to the respective MATLAB results, as also shown in \autoref{fig:fig3}, are created by storing the CellML simulation results to a file called Fig03.csv and running Fig03.m (cf. Section \ref{sec:run_matlab}). 
 
 % Figure 1
 \begin{figure}
@@ -175,14 +175,14 @@ The comparisons to the respective MATLAB results, as also shown in Figure~\ref{f
 % Figure 2
 \begin{figure}
     \includegraphics[width=\textwidth]{Figure2.pdf}
-    \caption{Model responses (solid lines) to sinusoidal stretch and results from \citet{maltenfort2003}, their Fig. 5 (circles). The displacement is qualitatively shown in gray (\SI{1.4}{\milli\meter} peak-to-peak sinusoidal stretch, mean displacement \SI{4}{\milli\meter}, frequency 1 Hz, second of two cycles). A: only static fusimotor drive ($\gamma_\mathrm{s}$). B: only dynamic fusimotor drive ($\gamma_\mathrm{d}$). C: static fusimotor drive against a tonic background of dynamic fusimotor drive. D: dynamic fusimotor drive against a tonic background of static fusimotor drive. Ia firing rate and fusimotor drive are given in pulses per second (pps). This figure is created by running Fig02.m.}
+    \caption{Model responses (solid lines) to sinusoidal stretch and results from \citet{maltenfort2003}, their Fig. 5 (circles). The displacement is qualitatively shown in gray (\SI{1.4}{\milli\meter} peak-to-peak sinusoidal stretch, mean displacement \SI{4}{\milli\meter}, frequency \SI{1}{\Hz}, second of two cycles). A: only static fusimotor drive ($\gamma_\mathrm{s}$). B: only dynamic fusimotor drive ($\gamma_\mathrm{d}$). C: static fusimotor drive against a tonic background of dynamic fusimotor drive. D: dynamic fusimotor drive against a tonic background of static fusimotor drive. Ia firing rate and fusimotor drive are given in pulses per second (pps). This figure is created by running Fig02.m.}
     \label{fig:fig5}
 \end{figure}
 
 % Figure 3
 \begin{figure}
     \includegraphics[width=\textwidth]{Figure3.pdf}
-    \caption{Comparison of simulation results obtained with MATLAB and CellML implementations. A: \SI{6}{\milli\meter} ramp-and-hold stretch, ramp velocity \SI{30}{\milli\meter\per\second}, no fusimotor drive. B:  Sinusoidal stretch (\SI{1.4}{\milli\meter} peak-to-peak, mean displacement \SI{4}{\milli\meter}, frequency 1 Hz, second of two cycles), static gamma drive 50 pps, dynamic gamma drive 125 pps. Ia firing rate and fusimotor drive are given in pulses per second (pps). This figure is created by running both, Fig03.sedml and Fig03.m.}
+    \caption{Comparison of simulation results obtained with MATLAB and CellML implementations. A: \SI{6}{\milli\meter} ramp-and-hold stretch, ramp velocity \SI{30}{\milli\meter\per\second}, no fusimotor drive. B:  Sinusoidal stretch (\SI{1.4}{\milli\meter} peak-to-peak, mean displacement \SI{4}{\milli\meter}, frequency \SI{1}{\Hz}, second of two cycles), static gamma drive 50 pps, dynamic gamma drive 125 pps. Ia firing rate and fusimotor drive are given in pulses per second (pps). This figure is created by running both, Fig03.sedml and Fig03.m.}
     \label{fig:fig3}
 \end{figure}
 
