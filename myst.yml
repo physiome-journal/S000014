@@ -3,6 +3,11 @@ project:
   title: >-
     Spindle Model Responsive to Mixed Fusimotor Inputs: an updated version of
     the Maltenfort and Burke (2003) model
+  description: >-
+    The muscle spindle model presented in Maltenfort & Burke (2003) calculates
+    muscle spindle primary afferent feedback depending on the muscle fibre
+    stretch and fusimotor drive.
+  thumbnail: thumbnail.png
   authors:
     - name: Laura Schmid
       orcid: 0000-0002-1781-8429
