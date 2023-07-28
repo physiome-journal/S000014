@@ -80,10 +80,6 @@ site:
   title: >-
     Spindle Model Responsive to Mixed Fusimotor Inputs: an updated version of
     the Maltenfort and Burke (2003) model
-  projects:
-    - slug: S000014
-      path: .
-  nav: []
   actions:
     - title: paper
       url: Schmid2022PhysiomeS000014.pdf
@@ -93,3 +89,5 @@ site:
       static: true
     - title: primary
       url: https://doi.org/10.1152/jn.00942.2002
+  domains:
+    - physiome-S000014.curve.space
